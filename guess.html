@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+
+<body>
+    <p id="explanation">You must enter a number between 1 and 100 (both inclusive) in the box below</p>
+    <img src="./images/WhatsApp Image 2022-02-14 at 16.39.35.jpeg" id="image" alt="">
+    <div class="wrapper">
+        <input id="enterBox" type="text" autocomplete="off" autofocus>
+        <button id="control">Check</button>
+        <button id="restart">Restart</button>
+    </div>
+    <p id="note"></p>
+    <div class="resultBox"><span>Guessed Numbers:</span> <input id="guessedNumber" type="text" readonly><span>Number of
+            Attempts:</span> <input id="attemptNumber" type="text" readonly></div>
+
+    <script src="guess.js"></script>
+</body>
+
+</html>
